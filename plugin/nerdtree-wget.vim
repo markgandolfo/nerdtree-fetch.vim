@@ -19,7 +19,7 @@ function! NERDTreeWGeter()
                         \ "==========================================================\n" .
                         \ "Enter the url of the file to wget:                        \n" .
                         \ "")
-    Bundle 'EvanDotPro/nerdtree-symlink'
+
     if wgetURL ==# ''
         echo "Cannot fetch an empty url."
         return
