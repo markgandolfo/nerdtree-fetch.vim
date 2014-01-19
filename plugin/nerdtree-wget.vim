@@ -1,5 +1,7 @@
 " Nerdtree wget in current directory
+" URL: https://github.com/markgandolfo/nerdtree-wget.vim
 " Author: Mark Gandolfo
+" Github: http://github.com/markgandolfo
 "
 if exists("g:loaded_nerdtree_wget_menuitem")
     finish
