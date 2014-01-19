@@ -11,5 +11,21 @@ asking you to enter the url of the file. Fill in the the url and press enter.
 * Vim 7.2+
 * [NERDTree](https://github.com/scrooloose/nerdtree)
 
+## Installation
+To install the plugin just copy `autoload`, `plugin`, `doc` directories into your `.vim` directory.
+
+### Vundle
+To Install using [Vundle](https://github.com/gmarik/vundle) add the following
+to your vimrc file after the NerdTree Bundle.
+
+    Bundle 'markgandolfo/nerdtree-wget.vim'
+
+### Pathogen
+To install via [Pathogen](https://github.com/tpope/vim-pathogen) run the
+following commands
+
+    cd ~/.vim/bundle
+    git clone git@github.com:markgandolfo/nerdtree-wget.vim.git
+
 ## License
 Licensed under MIT by Mark Gandolfo
