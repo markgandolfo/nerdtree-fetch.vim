@@ -1,0 +1,15 @@
+# NERDTree Wget
+This is a simple plugin for NERDTree to allow a file to be pulled from the internet
+using wget.
+
+## How To Use
+To use place the cursor over the directory you wish to pull the file into, and
+open the file menu in NERDTree using <m>, then press <w>. You will get an input
+asking you to enter the url of the file. Fill in the the url and press enter.
+
+## Requirements
+* Vim 7.2+
+* [NERDTree](https://github.com/scrooloose/nerdtree)
+
+## License
+Licensed under MIT by Mark Gandolfo
