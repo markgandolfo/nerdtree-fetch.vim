@@ -12,7 +12,6 @@ asking you to enter the url of the file. Fill in the the url and press enter.
 * [NERDTree](https://github.com/scrooloose/nerdtree)
 
 ## Installation
-To install the plugin just copy `autoload`, `plugin`, `doc` directories into your `.vim` directory.
 
 ### Vundle
 To Install using [Vundle](https://github.com/gmarik/vundle) add the following
