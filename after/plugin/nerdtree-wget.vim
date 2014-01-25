@@ -26,7 +26,7 @@ function! NERDTreeWGeter()
     endif
 
     try
-        let cmd = 'wget ' . shellescape(wgetURL) . ' ' . curDir.path.str({'format': 'Cd'}) . '/'
+        let cmd = 'wget ' . shellescape(wgetURL) . ' -P ' . curDir.path.str({'format': 'Cd'}) . '/'
 
         if cmd != ''
             let success = system(cmd)
