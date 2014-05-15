@@ -15,7 +15,7 @@ call NERDTreeAddMenuItem({
 
 function! NERDTreeWGeter()
     let curDir = g:NERDTreeDirNode.GetSelected()
-    let wgetURL = input("Create a symbolic link\n" .
+    let wgetURL = input("Wget a file.\n" .
                         \ "==========================================================\n" .
                         \ "Enter the url of the file to wget:                        \n" .
                         \ "")
