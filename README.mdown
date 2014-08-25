@@ -1,11 +1,11 @@
-# NERDTree Wget
+# NERDTree Fetch
 This is a simple plugin for NERDTree to allow a file to be pulled from the internet
-using wget.
+using wget or curl.
 
 ## How To Use
 Place the cursor over the directory you wish to pull the file into, then
-open the file menu in NERDTree using `m`, then press `w`. You will get an input
-asking you to enter the url of the file. Fill in the the url and press enter.
+open the file menu in NERDTree using `m`, then press `w` for wget or `c` for curl.
+You will get an input asking you to enter the url of the file. Fill in the the url and press enter.
 
 ## Requirements
 * Vim 7.2+
@@ -17,7 +17,7 @@ asking you to enter the url of the file. Fill in the the url and press enter.
 To Install using [Vundle](https://github.com/gmarik/vundle) add the following
 to your vimrc file after the NerdTree Bundle.
 
-    Bundle 'markgandolfo/nerdtree-wget.vim'
+    Bundle 'markgandolfo/nerdtree-fetch.vim'
 
 ### Pathogen
 To install via [Pathogen](https://github.com/tpope/vim-pathogen) run the
