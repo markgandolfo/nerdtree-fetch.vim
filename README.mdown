@@ -4,8 +4,8 @@ using wget or curl.
 
 ## How To Use
 Place the cursor over the directory you wish to pull the file into, then
-open the file menu in NERDTree using `m`, then press `w` for wget or `c` for curl.
-You will get an input asking you to enter the url of the file. Fill in the the url and press enter.
+open the file menu in NERDTree using `m`, then press `f`. You will get an input 
+asking you to enter the url of the file. Fill in the the url and press enter.
 
 ## Requirements
 * Vim 7.2+
@@ -24,7 +24,7 @@ To install via [Pathogen](https://github.com/tpope/vim-pathogen) run the
 following commands
 
     cd ~/.vim/bundle
-    git clone git@github.com:markgandolfo/nerdtree-wget.vim.git
+    git clone git@github.com:markgandolfo/nerdtree-fetch.vim.git
 
 ## License
 Licensed under MIT by Mark Gandolfo
