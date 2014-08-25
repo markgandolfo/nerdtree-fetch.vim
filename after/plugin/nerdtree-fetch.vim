@@ -26,9 +26,10 @@ function! NERDTreeFetcher()
     endif
 
     try
-        let downloadUrl = shellescape(url)
+        let downloadURL = shellescape(fetchURL)
         let downloadDir = curDir.path.str({'format': 'Cd'}) . '/'
-        let cmd = 'wget ' . downloadUrl . ' -P ' . downloadDir . ' 2>/dev/null || cd ' . downloadDir . ' && curl -O  ' . downloadUrl
+
+        let cmd = 'wget ' . downloadURL . ' -P ' . downloadDir . ' 2>/dev/null || cd ' . downloadDir . ' && curl -O  ' . downloadURL . ' && cd - '
 
         if cmd != ''
             let success = system(cmd)
@@ -41,3 +42,4 @@ function! NERDTreeFetcher()
     catch /^NERDTree/
         echo "NERDTree fetch didnt fetch anything"
     endtry
+endfunction
