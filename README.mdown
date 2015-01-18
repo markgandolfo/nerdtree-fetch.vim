@@ -17,7 +17,7 @@ asking you to enter the url of the file. Fill in the the url and press enter.
 To Install using [Vundle](https://github.com/gmarik/vundle) add the following
 to your vimrc file after the NerdTree Bundle.
 
-    Bundle 'markgandolfo/nerdtree-fetch.vim'
+    Plugin 'markgandolfo/nerdtree-fetch.vim'
 
 ### Pathogen
 To install via [Pathogen](https://github.com/tpope/vim-pathogen) run the
