@@ -21,10 +21,9 @@ to your vimrc file after the NerdTree Bundle.
 
 ### Pathogen
 To install via [Pathogen](https://github.com/tpope/vim-pathogen) run the
-following commands
+following command
 
-    cd ~/.vim/bundle
-    git clone git@github.com:markgandolfo/nerdtree-fetch.vim.git
+    git clone https://github.com/markgandolfo/nerdtree-fetch.vim.git ~/.vim/bundle/nerdtree-fetch.vim
 
 ## License
 Licensed under MIT by Mark Gandolfo
